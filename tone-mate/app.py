@@ -194,7 +194,6 @@ strength = st.slider("Tone Strength", min_value=1, max_value=5, value=3,
 st.markdown("**💡 Tip:** Select multiple tones to see different versions of your email and choose the one that fits your needs best!")
 
 def clean_ai_response(response_text):
-    """Clean AI response to remove unwanted AI commentary"""
     patterns_to_remove = [
         r"Sure,?\s*here(?:'s| is) the rewritten email in a \w+ tone:?\s*",
         r"Here(?:'s| is) the rewritten (?:email|message) in a \w+ tone:?\s*",
@@ -217,7 +216,6 @@ def clean_ai_response(response_text):
     return cleaned_text
 
 def display_message_box(label, content, is_original=False):
-    """Display a message in a styled container with copy functionality"""
     icon = "🔒" if is_original else "✨"
     button_id = f"copy_btn_{hash(content) % 10000}"
     
