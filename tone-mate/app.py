@@ -76,7 +76,6 @@ st.markdown("""
 }
 
 .tone-tag-container {
-    background-color: #0e1117;
     padding: 12px 16px;
     border-radius: 8px;
     border: 1px solid #30363d;
