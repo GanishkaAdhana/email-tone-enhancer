@@ -19,7 +19,7 @@
 ⚙️ Installation
 1. Clone the Repository
    
-   bash git clone https://github.com/GanishkaAdhana/email-tone-improver.git
+   git clone https://github.com/GanishkaAdhana/email-tone-improver.git
    
    cd email-tone-improver
 
@@ -67,3 +67,4 @@ Styling: Custom CSS
 
 ---
 📬 Because how you say it matters.
+
